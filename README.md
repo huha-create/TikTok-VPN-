@@ -31,18 +31,16 @@
 #auto-continue: true
 
 
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:20450?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA#🇫🇷 Франция ⚡️1
-
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:22000?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA#🇫🇷 Франция ⚡️2
-
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:28450?type=grpc&mode=gun&serviceName=TunService&security=reality&fp=chrome&sni=www.microsoft.com&pbk=GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA#🇫🇷 Франция ⚡️3
-
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:28446?type=grpc&mode=gun&serviceName=TunService&security=reality&fp=chrome&sni=www.microsoft.com&pbk=pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk#🇫🇷 Франция ⚡️4
-
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:20446?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk#🇫🇷 Франция ⚡️5
-
-vless://ad1d82be-0d67-0248-af2c-6a1ee6ed6f05@166.1.131.9:21996?flow=xtls-rprx-vision&type=tcp&headerType=none&security=reality&fp=chrome&sni=speed.cloudflare.com&pbk=pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk#🇫🇷 Франция ⚡️6
-
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@ask3jdb-87asdh.185.vkproxy.com:8443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇪🇺 Резерв 🔗 1.1
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@ll5u5y2-p21tmm.nl.velvetvpn.xyz:8443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8&sid=a1b2c3d4e5f6789a&type=tcp&flow=xtls-rprx-vision#🇳🇱 Резерв 🔗 2.2
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@ll5u5y2-p21tmm.nl.velvetvpn.xyz:40443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8&sid=a1b2c3d4e5f6789a&type=tcp&flow=xtls-rprx-vision#🇳🇱 Резерв 🔗 3.3
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@bac1mdz-1vqrt5.de.vkproxy.com:50043?encryption=none&security=reality&sni=sun9-45.userapi.com&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇩🇪 Резерв 🔗 4.4
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@ask3jdb-87asdh.185.vkproxy.com:40443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇸🇪 Резерв 🔗 5.5
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@a2d249c1-b7kxjp.95.v-tun.com:40443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇷🇺 Резерв 🔗 6.6
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@mo11lbd-16bgdz.nw.vkproxy.com:40443?encryption=none&security=reality&sni=sun9-45.userapi.com&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇳🇴 Резерв 🔗 7.7
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@a1v0f7e-42zfe4.95.velvetvpn.xyz:40443?encryption=none&security=reality&sni=api-maps.yandex.ru&fp=qq&pbk=DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs&sid=505c94b8c65afb0a&type=tcp&flow=xtls-rprx-vision#🇷🇺 Резерв 🔗 8.8
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@xmz8m3m-z253mv.nl.velvetvpn.xyz:40443?encryption=none&security=reality&sni=deepl.com&fp=qq&pbk=wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8&sid=a1b2c3d4e5f6789a&type=tcp&flow=xtls-rprx-vision#🇳🇱 Резерв 🔗 9.9
+vless://89288729-c4f2-47cf-9992-7e3d1fc8aa14@178.248.238.133:10065?encryption=none&security=tls&sni=stream-1.kinograd.online&fp=qq&type=ws&host=stream-1.kinograd.online&path=%2Flive%2Fstream%3Fmodule%3Dvideo-cdn%26app_client_id%3Dcc8c59b8-7c86-417b-a522-b0cc29fcc2f8#🇳🇱 Резерв 🔗 10.10
 
 vmess://eyJhZGQiOiJyZW5kZXJlci1zdHJlYW0tMS0zMTIubWlycmEubm93IiwiYWlkIjoiMCIsImFscG4iOiJoMixodHRwLzEuMSIsImZwIjoiY2hyb21lIiwiaG9zdCI6InJlbmRlcmVyLXN0cmVhbS0xLTMxMi5taXJyYS5ub3ciLCJpZCI6ImZmZDk3Y2IzLWU5YjItNGE1ZS04MWYwLTVkY2NlMjVkNTQ2MCIsIm5ldCI6IndzIiwicGF0aCI6Ii9hcGkvdjEvZ3B1LXN0cmVhbS9zb2NrZXQiLCJwb3J0IjoiNDQzIiwicHMiOiLwn4e38J+HuiDQk9C70YPRiNC40LvQutCwIHwgMSIsInNjeSI6ImF1dG8iLCJzbmkiOiJyZW5kZXJlci1zdHJlYW0tMS0zMTIubWlycmEubm93IiwidGxzIjoidGxzIiwidHlwZSI6IiIsInYiOiIyIn0=
 
