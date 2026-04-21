@@ -32,6 +32,15 @@
 
 #announce:Если не работает Обновляйте подписку 🔄 Новые конфиги появляются регулярно!💡 
 
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@72.56.240.250:443?type=tcp&headerType=none&security=reality&fp=chrome&sni=yandex.ru&pbk=KMAmRoQkjpCzO2Tbpvh6-UAeW0hKLEQr230y02-_3iw&sid=b8960f8a008648c1#🇷🇺 Основа
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:443?type=tcp&headerType=none&security=reality&fp=chrome&sni=yandex.ru&pbk=KIRFKsdto8opnbRdEcTtsc3m-mTwW9L_Gnk5DSwrWx0&sid=b8960f8a008648c1#🇷🇺 Резерв 🔗1
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@72.56.240.250:2443?type=tcp&headerType=none&security=reality&fp=chrome&sni=yandex.ru&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc#🇷🇺 Резерв 🔗2
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@72.56.245.52:2443?type=tcp&headerType=none&security=reality&fp=chrome&sni=yandex.ru&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc#🇷🇺 Резерв 🔗3
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:2443?type=tcp&headerType=none&security=reality&fp=chrome&sni=yandex.ru&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc#🇷🇺 Резерв 🔗4
 
 vless://f9348c30-8a34-40bc-ae15-e938235b9a6b@64.188.98.68.vhub.pro:443?mode=gun&security=tls&alpn=h2&encryption=none&fp=chrome&type=grpc&serviceName=%2Fsequre%2Fgrpc%2F&sni=64.188.98.68.vhub.pro#%F0%9F%87%A9%F0%9F%87%AA%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%BA%20%E2%84%969
 vless://f9348c30-8a34-40bc-ae15-e938235b9a6b@144.31.12.145.vhub.pro:443?mode=gun&security=tls&encryption=none&fp=chrome&type=grpc&serviceName=%2Fsequre%2Fgrpc%2F&sni=144.31.12.145.vhub.pro#%F0%9F%87%A9%F0%9F%87%AA%20%D0%9E%D0%B1%D1%85%D0%BE%D0%B4%20%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%BE%D0%BA%20%E2%84%9610
