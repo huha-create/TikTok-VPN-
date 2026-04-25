@@ -32,8 +32,8 @@
 
 #announce:Если не работает Обновляйте подписку 🔄 Новые конфиги появляются регулярно!💡 
 
-hysteria2://a231c089-9065-4525-a226-bb4f4fd487d2@vpn.tgflovv.ru:36873?security=tls&fm=%7B%22udp%22%3A%5B%7B%22settings%22%3A%7B%22password%22%3A%22uUpjpRk6HbQ2M%22%7D%2C%22type%22%3A%22salamander%22%7D%5D%7D&allowinsecure=1&sni=vpn.tgflovv.ru#%F0%9F%87%B3%F0%9F%87%B1+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9+%F0%9F%9A%80+1
-hysteria2://a231c089-9065-4525-a226-bb4f4fd487d2@rudostup.tgflovv.ru:43033?security=tls&fm=%7B%22udp%22%3A%5B%7B%22settings%22%3A%7B%22password%22%3A%22q1MxbQuFBVqxmhqenKWqhDIYrPjLaz%22%7D%2C%22type%22%3A%22salamander%22%7D%5D%7D&allowinsecure=1&sni=rudostup.tgflovv.ru#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%E2%9A%A1+2
+vless://a231c089-9065-4525-a226-bb4f4fd487d2@ru.tgflovv.ru:443?security=reality&encryption=none&alpn=http/1.1&echfq=none&pbk=dnLLXzjeK60Uc_3ERBlnWIKRGmbXn9b--vn5Yl-LfVI&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru&sid=6fb05d1f3a#%F0%9F%87%AB%F0%9F%87%AE+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9+%F0%9F%9A%80+1
+vless://a231c089-9065-4525-a226-bb4f4fd487d2@ru.tgflovv.ru:443?security=reality&encryption=none&alpn=http/1.1&echfq=none&pbk=dnLLXzjeK60Uc_3ERBlnWIKRGmbXn9b--vn5Yl-LfVI&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=yandex.ru&sid=6fb05d1f3a#%F0%9F%87%B7%F0%9F%87%BA+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%E2%9A%A1+2
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:2443?security=reality&encryption=none&echfq=none&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yandex.ru#%F0%9F%87%AC%F0%9F%87%A7+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%E2%9A%A1+3
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:443?security=reality&encryption=none&echfq=none&pbk=KIRFKsdto8opnbRdEcTtsc3m-mTwW9L_Gnk5DSwrWx0&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yandex.ru&sid=b8960f8a008648c1#%F0%9F%87%A9%F0%9F%87%AA+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+%E2%9A%A1+4
 
