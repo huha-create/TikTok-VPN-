@@ -33,8 +33,7 @@ happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-web-page-url: https://wa.me/79639864492
 #profile-icon: https://share.google/Kl64QMcBQApgnH6aJ
 #profile-test-url: http://cp.cloudflare.com/generate_204
-trojan://a6SAZyTjVF3eyDygdUZ_t9kuz835me7F@de5.nnmm.me:443?security=tls&sni=de5.nnmm.me&alpn=h2,http/1.1&fp=firefox#🇷🇺 Основной 
-trojan://a6SAZyTjVF3eyDygdUZ_t9kuz835me7F@nl2.nnmm.me:443?security=tls&sni=nl2.nnmm.me&alpn=h2,http/1.1&fp=chrome#🇷🇺 Основа 2
+
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=KIRFKsdto8opnbRdEcTtsc3m-mTwW9L_Gnk5DSwrWx0&sid=b8960f8a008648c1#🇷🇺 Резерв 1
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@138.124.26.159:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=GFe2pwkZh7WJbyZuFpFH68G4AOjvfl_xZANcXU2zZio#🇷🇺 Резерв 2
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@77.110.103.104:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=ET27w-6nMRvINVTLG8suQqEOT_f2BhrXGCI1USpN9AM&sid=b8960f8a008648c1#🇷🇺 Резерв 3
