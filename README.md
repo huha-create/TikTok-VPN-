@@ -32,6 +32,21 @@ happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-web-page-url: https://wa.me/79639864492
 #profile-icon: https://share.google/Kl64QMcBQApgnH6aJ
 #profile-test-url: http://cp.cloudflare.com/generate_204
+
+trojan://a6SAZyTjVF3eyDygdUZ_t9kuz835me7F@de5.nnmm.me:443?security=tls&sni=de5.nnmm.me&alpn=h2,http/1.1&fp=firefox#🇷🇺 Основной 
+
+trojan://a6SAZyTjVF3eyDygdUZ_t9kuz835me7F@nl2.nnmm.me:443?security=tls&sni=nl2.nnmm.me&alpn=h2,http/1.1&fp=chrome#🇷🇺 Основа 2
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=KIRFKsdto8opnbRdEcTtsc3m-mTwW9L_Gnk5DSwrWx0&sid=b8960f8a008648c1#🇷🇺 Резерв 1
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@138.124.26.159:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=GFe2pwkZh7WJbyZuFpFH68G4AOjvfl_xZANcXU2zZio#🇷🇺 Резерв 2
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@77.110.103.104:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=ET27w-6nMRvINVTLG8suQqEOT_f2BhrXGCI1USpN9AM&sid=b8960f8a008648c1#🇷🇺 Резерв 3
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@147.45.42.81:443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=_WD_e6T5Svn6DQx8qO4HGrnqTvsTPImDA__pEBiyaQ0&sid=b8960f8a008648c1#🇫🇷 Резерв 4
+
+vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:2443?encryption=none&security=reality&type=tcp&sni=yandex.ru&fp=chrome&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc&sid=b8960f8a008648c1#🇷🇺 Резерв 5
+
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@193.188.23.65:2443?security=reality&encryption=none&pbk=NGXEKZXsnI0yWLAG4Qj6XKSVkDpqN_UaKsW5yJPMBUc&headerType=none&fp=chrome&type=tcp&sni=yandex.ru#%F0%9F%87%B7%F0%9F%87%BA%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%201
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@77.110.103.104:443?security=reality&encryption=none&pbk=ET27w-6nMRvINVTLG8suQqEOT_f2BhrXGCI1USpN9AM&headerType=none&fp=chrome&type=tcp&sni=yandex.ru&sid=b8960f8a008648c1#%F0%9F%87%B3%F0%9F%87%B1%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%201.1
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@147.45.42.81:443?security=reality&encryption=none&pbk=_WD_e6T5Svn6DQx8qO4HGrnqTvsTPImDA__pEBiyaQ0&headerType=none&fp=chrome&type=tcp&sni=yandex.ru&sid=b8960f8a008648c1#%F0%9F%87%AB%F0%9F%87%B7%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%201.2
