@@ -54,6 +54,8 @@ happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-web-page-url: https://wa.me/79639864492
 #profile-icon: https://share.google/Kl64QMcBQApgnH6aJ
 #profile-test-url: http://cp.cloudflare.com/generate_204
+
+vless://e77535c8-f896-4f69-acd0-91484e94957f@nt2.kavkaz-market.tech:443?security=reality&encryption=none&echfq=none&pbk=rh2IgXc0vtXZ3euLtMP8RUlnmBc_4ftYBuL5Z0udk2A&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru#%F0%9F%87%B3%F0%9F%87%B1+%D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9+%E2%9A%A1
 vless://68d7fc77-5456-483d-963d-338eb18137e3@82.117.84.11:47937?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=aMK3qxqAoFfq0es1hQHp443qyDUkILsFHgsIc-DIwR4&sid=2c9d69aa6c79&spx=/#🇷🇺 Тестирование 1
 vless://41c6f8dd-50de-4c30-96be-44e00fa437ae@77.110.121.202:23164?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=XoIxfrtYaItQL-X_zvZqTcCHBF3_LhIiptW9ph3Rgjs&sid=62&spx=/#🇷🇺 Тестирование 2
 vless://b923639e-724d-4f75-9d8e-ff43c267b35b@46.226.162.205:51177?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=o5VKcEfjPXonAjUJYSk2Rznv0wHjkFEHlVZtcUwVsQE&sid=5ed6&spx=/#🇫🇷 Тестирование 3
