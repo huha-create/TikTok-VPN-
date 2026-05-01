@@ -1,106 +1,83 @@
-name: Anti-Zaglushka Smart Sync 222 TOTAL CLEAN
+name: Sync 1 Source with Random Flags & Numbering
 
 on:
   schedule:
-    - cron: "0 */1 * * *" 
+    - cron: "0 * * * *" 
   workflow_dispatch:
 
 jobs:
   check-and-sync:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch, Ping and Notify
-        env:
-          TG_TOKEN: ${{ secrets.TG_TOKEN }}
-          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
+      - name: Fetch, Check and Style Keys
         run: |
-          # 1. Settings
-          SOURCES=(
-            "https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS_mobile.txt"
-          )
-          FLAGS=("🇺🇸" "🇩🇪" "🇫🇮" "🇵🇱" "🇳🇱" "🇬🇧" "🇫🇷" "🇰🇿" "🇹🇷" "🇸🇪" "🇦🇹" "🇨🇿")
-          LIMIT=222
+          # 1. Твой источник
+          SOURCE_URL="https://vpn.tgflovv.ru:8443/free-speed/46c6baae-ed09-4000-bb69-f63f1c100fbf"
 
-          # 2. Save VIP keys
+          # Список флагов (🇸🇴 в приоритете)
+          FLAGS=("🇸🇴" "🇸🇴" "🇸🇴" "🇺🇸" "🇩🇪" "🇫🇮" "🇵🇱" "🇳🇱" "🇬🇧" "🇫🇷" "🇰🇿" "🇹🇷" "🇸🇪" "🇦🇹" "🇨🇿")
+
+          # 2. Сохраняем ТОЛЬКО личные ключи
           touch README.md
-          grep "://" README.md | grep -v "№" | grep -v "Антизаглушка" > my_own_keys.txt || touch my_own_keys.txt
-          
-          grep "Антизаглушка" README.md | cut -d'#' -f1 > existing_urls.txt || touch existing_urls.txt
+          grep "://" README.md | grep -v "🔗" | grep -v "Обход Блокировок" > my_own_keys.txt || touch my_own_keys.txt
+          cut -d'#' -f1 my_own_keys.txt > existing_urls.txt
 
-          # 3. Collect new keys
-          > new_keys.txt
-          NEW_ADDED=0
-          for url in "${SOURCES[@]}"; do
-            curl -L -s "$url" -o temp.txt
-            grep "://" temp.txt > raw_temp.txt || cp temp.txt raw_temp.txt
-
-            while IFS= read -r line; do
-              CLEAN_URL=$(echo "$line" | cut -d'#' -f1)
-              if [[ $CLEAN_URL =~ ^(vless|vmess|trojan|ss):// ]] && ! grep -q "$CLEAN_URL" existing_urls.txt; then
-                HOST=$(echo "$CLEAN_URL" | sed -e 's/.*@//' -e 's/:.*//' -e 's/\/.*//')
-                PORT=$(echo "$CLEAN_URL" | sed -e 's/.*://' -e 's/[?#\/].*//')
-                if timeout 1.2s bash -c "true &>/dev/null > /dev/tcp/$HOST/$PORT" 2>/dev/null; then
-                  RANDOM_FLAG=${FLAGS[$RANDOM % ${#FLAGS[@]}]}
-                  echo "${CLEAN_URL}#${RANDOM_FLAG} обход блокировок 🚀" >> new_keys.txt
-                  NEW_ADDED=$((NEW_ADDED + 1))
-                  echo "$CLEAN_URL" >> existing_urls.txt
-                fi
-              fi
-            done < raw_temp.txt
-          done
-
-          # 4. Merge
-          grep "Антизаглушка" README.md > current_source_keys.txt || touch current_source_keys.txt
-          cat new_keys.txt >> current_source_keys.txt
-          
-          # 5. Clean to limit
-          TOTAL_BEFORE=$(wc -l < current_source_keys.txt)
-          REMOVED=0
-          if [ "$TOTAL_BEFORE" -gt "$LIMIT" ]; then
-             REMOVED=$((TOTAL_BEFORE - LIMIT))
-             tail -n "$LIMIT" current_source_keys.txt > cleaned_source_keys.txt
+          # 3. Качаем и декодируем источник
+          curl -L -s "$SOURCE_URL" -o raw_source.txt
+          if ! grep -q "://" raw_source.txt; then
+            base64 -d raw_source.txt > decoded_keys.txt 2>/dev/null || cp raw_source.txt decoded_keys.txt
           else
-             cp current_source_keys.txt cleaned_source_keys.txt
+            cp raw_source.txt decoded_keys.txt
           fi
 
-          # 6. Rewrite README.md
-          TRAFFIC_LINE=$(grep "#subscription-userinfo" README.md | head -n 1 || echo "#subscription-userinfo: upload=0; download=0; total=1125899906842624; expire=3803572800")
-          echo "$TRAFFIC_LINE" > README.md
-          echo "#profile-title: 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍" >> README.md
-          echo "#profile-update-interval: 1" >> README.md
-          echo "#subscription-update-interval: 1" >> README.md
-          echo "#announce: Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!" >> README.md
-          echo "happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN" >> README.md
-          echo "" >> README.md
+          # 4. Проверка и форматирование названий ключей
+          > alive_keys.txt
+          COUNT=1
           
-          cat my_own_keys.txt >> README.md
-          
-          IDX=1
           while IFS= read -r line; do
-             CLEAN_LINE=$(echo "$line" | sed 's/ №[0-9]*//g')
-             echo "${CLEAN_LINE} №$IDX" >> README.md
-             IDX=$((IDX + 1))
-          done < cleaned_source_keys.txt
+            line=$(echo "$line" | tr -d '\r' | xargs)
+            if [[ $line =~ ^(vless|vmess|trojan|ss):// ]]; then
+              CLEAN_URL=$(echo "$line" | cut -d'#' -f1)
+              HOST=$(echo "$CLEAN_URL" | sed -e 's/.*@//' -e 's/:.*//' -e 's/\/.*//')
+              PORT=$(echo "$CLEAN_URL" | sed -e 's/.*://' -e 's/[?#\/].*//')
+              
+              if [[ "$CLEAN_URL" == vmess://* ]]; then SKIP_PING=true; else SKIP_PING=false; fi
 
-          # 7. Telegram report
-          TOTAL_FINAL=$(( $(wc -l < my_own_keys.txt) + $(wc -l < cleaned_source_keys.txt) ))
-          MSG="🚀 *АНТИЗАГЛУШКА*%0A%0A✅ Добавлено новых: *$NEW_ADDED*%0A🧹 Очищено старых: *$REMOVED*%0A📊 Всего в списке: *$TOTAL_FINAL*%0A🕒 Время: $(date +'%H:%M')"
+              if ! grep -q "$CLEAN_URL" existing_urls.txt; then
+                if [ "$SKIP_PING" = true ] || timeout 1s bash -c "true &>/dev/null > /dev/tcp/$HOST/$PORT" 2>/dev/null; then
+                  RANDOM_FLAG=${FLAGS[$RANDOM % ${#FLAGS[@]}]}
+                  # Название ключей: Обход Блокировок 🔗
+                  echo "${CLEAN_URL}#${RANDOM_FLAG} Обход Блокировок 🔗 $COUNT" >> alive_keys.txt
+                  echo "$CLEAN_URL" >> existing_urls.txt
+                  COUNT=$((COUNT + 1))
+                fi
+              fi
+            fi
+          done < decoded_keys.txt
+
+          # 5. Сборка итогового файла
+          TRAFFIC_LINE=$(grep "#subscription-userinfo" README.md || echo "#subscription-userinfo: upload=0; download=0; total=1125899906842624; expire=3803572800")
           
-          curl -s -X POST "https://api.telegram.org/bot$TG_TOKEN/sendMessage" \
-            -d "chat_id=$TG_CHAT_ID" \
-            -d "parse_mode=Markdown" \
-            -d "text=$MSG"
+          echo "$TRAFFIC_LINE" > new_readme.md
+          # Твое новое название профиля:
+          echo "#profile-title: 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍" >> new_readme.md
+          echo "#profile-update-interval: 1" >> new_readme.md
+          echo "#announce:Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!" >> new_readme.md
+          echo "happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN" >> new_readme.md
+          echo "" >> new_readme.md
+          
+          cat my_own_keys.txt >> new_readme.md
+          cat alive_keys.txt >> new_readme.md
+          
+          mv new_readme.md README.md
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git add README.md
-          git commit -m "Total Clean: Limit 222 enforced" || exit 0
-          git push origin main
-
+          git commit -m "Update: Profile title 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍 and hourly sync" || exit 0
+          git push origin main --force
           
