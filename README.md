@@ -52,12 +52,12 @@ happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
+happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-subscription-url:https://raw.githubusercontent.com/huha-create/TikTok-VPN-/main/README.md
 #support-url: https://wa.me/79639864492
 #profile-web-page-url: https://wa.me/79639864492
 #profile-icon: https://share.google/Kl64QMcBQApgnH6aJ
 #profile-test-url: http://cp.cloudflare.com/generate_204
-
 vless://a58fea0e-995c-4e1d-9010-66bc4224b02b@3.64.130.5:443?security=reality&encryption=none&echfq=none&pbk=erly1rUFUBXnINK_DTvL62CkWqDHW-zpFcKlbdwHhFE&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=www.aliexpress.com&sid=1e9f4a8c7b3d0256#%F0%9F%87%A9%F0%9F%87%AA+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9+hwb+%F0%9F%9A%80
 vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@89.124.114.182:443?security=reality&encryption=none&echfq=none&pbk=ET27w-6nMRvINVTLG8suQqEOT_f2BhrXGCI1USpN9AM&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=vk.com#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
 vless://6b0f007a-48b9-4ae1-a7ff-ebe56000b22e@89.124.90.140:443?security=reality&encryption=none&echfq=none&pbk=Uy00KUypOxIe6Q0Ym5t6DuWWuP2lQFvJBVSduaDHDU4&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yahoo.com&sid=f7f3#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
