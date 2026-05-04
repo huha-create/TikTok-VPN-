@@ -3,6 +3,8 @@
 #profile-update-interval: 1
 #announce:Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!
 happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
+
+happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-subscription-url:https://raw.githubusercontent.com/huha-create/TikTok-VPN-/main/README.md
 #support-url: https://wa.me/79639864492
 #profile-web-page-url: https://wa.me/79639864492
@@ -22,7 +24,6 @@ vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=re
 vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%B3%F0%9F%87%B4%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
 vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AC%F0%9F%87%B7%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
 vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%A8%F0%9F%87%BF%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
-
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@94.156.122.179.vhub.pro:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%202
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@64.188.98.68.vhub.pro:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%203
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@216.57.109.212:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%204
