@@ -3,86 +3,26 @@
 #profile-update-interval: 1
 #announce:Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!
 happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
-happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN
 #profile-subscription-url:https://raw.githubusercontent.com/huha-create/TikTok-VPN-/main/README.md
 #support-url: https://wa.me/79639864492
 #profile-web-page-url: https://wa.me/79639864492
 #profile-icon: https://share.google/Kl64QMcBQApgnH6aJ
 #profile-test-url: http://cp.cloudflare.com/generate_204
-vless://a58fea0e-995c-4e1d-9010-66bc4224b02b@3.64.130.5:443?security=reality&encryption=none&echfq=none&pbk=erly1rUFUBXnINK_DTvL62CkWqDHW-zpFcKlbdwHhFE&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=www.aliexpress.com&sid=1e9f4a8c7b3d0256#%F0%9F%87%A9%F0%9F%87%AA+%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9+hwb+%F0%9F%9A%80
-vless://aed996ff-eca0-4d4a-b2f3-01362ec4d48d@89.124.114.182:443?security=reality&encryption=none&echfq=none&pbk=ET27w-6nMRvINVTLG8suQqEOT_f2BhrXGCI1USpN9AM&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=vk.com#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
-vless://6b0f007a-48b9-4ae1-a7ff-ebe56000b22e@89.124.90.140:443?security=reality&encryption=none&echfq=none&pbk=Uy00KUypOxIe6Q0Ym5t6DuWWuP2lQFvJBVSduaDHDU4&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yahoo.com&sid=f7f3#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
-vless://1ea69ec0-6a08-476f-b119-8266bab40473@185.125.203.33:443?security=reality&encryption=none&echfq=none&pbk=BgDZcLIjx_1FZbLGsaZuu7Pc2dl5OwSd3VErem7ymyA&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yahoo.com&sid=8c71#%F0%9F%87%B3%F0%9F%87%B1+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
-vless://e9a4dfd3-5e00-4d6e-8030-9cd8117d4b2a@216.57.108.20:443?security=reality&encryption=none&echfq=none&pbk=udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0&headerType=none&fp=chrome&allowinsecure=0&type=tcp&sni=yahoo.com&sid=95c7#%F0%9F%87%A9%F0%9F%87%AA+%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9+hwb+%E2%9A%A1
-vless://83093cc6-d740-4fa0-afac-51e5aa8154bf@cdn-msk.cloudcampus.space:443?encryption=none&security=tls&sni=cdn-msk.cloudcampus.space&alpn=h2&fp=chrome&type=grpc&serviceName=grpc-35ad6b03#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%201
-vless://83093cc6-d740-0001-afac-51e5aa8154bf@media-1.trafix.app:443?encryption=none&security=tls&sni=media-1.trafix.app&alpn=h2,http/1.1&fp=chrome&type=xhttp&mode=stream-one&path=%2Fapi%2Fv2%2Fassets%2Fstream%2F&host=media-1.trafix.app#%F0%9F%87%AB%F0%9F%87%AE%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%202
-vless://83093cc6-d740-0002-afac-51e5aa8154bf@media-2.trafix.app:443?encryption=none&flow=xtls-rprx-vision&security=tls&sni=media-2.trafix.app&alpn=h2,http/1.1&fp=chrome&type=tcp#%F0%9F%87%A9%F0%9F%87%AA%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%203
-vless://83093cc6-d740-4fa0-afac-51e5aa8154bf@cdn-ams.trafixlabs.com:443?encryption=none&security=tls&sni=cdn-ams.trafixlabs.com&alpn=h2,http/1.1&fp=chrome&type=xhttp&mode=stream-one&path=%2Fapi%2Fv2%2Fassets%2Fstream%2F&host=cdn-ams.trafixlabs.com#%F0%9F%87%B3%F0%9F%87%B1%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%204
-vless://83093cc6-d740-4fa0-afac-51e5aa8154bf@178.18.206.29:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=onprem.picusops.com&fp=chrome&pbk=4wgEthl_HCRchiNj-aX-50luW-_Uv-tndq3dHXiu4gk&sid=d4e5f6&type=tcp#%F0%9F%87%B9%F0%9F%87%B7%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%205
-vless://83093cc6-d740-0003-afac-51e5aa8154bf@89.104.69.131:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=zanlab.ru&fp=chrome&pbk=VC_I3bmPRVIsiip2ImSyXhb4Wf8jtQIiqb2bX3RGC00&sid=a1&type=tcp#%F0%9F%87%B0%F0%9F%87%B7%20%D0%A2%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%206
-vless://e77535c8-f896-4f69-acd0-91484e94957f@nt2.kavkaz-market.tech:443?security=reality&encryption=none&echfq=none&pbk=rh2IgXc0vtXZ3euLtMP8RUlnmBc_4ftYBuL5Z0udk2A&headerType=none&fp=chrome&allowinsecure=0&type=tcp&flow=xtls-rprx-vision&sni=max.ru#%F0%9F%87%B3%F0%9F%87%B1+%D0%91%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B9+%E2%9A%A1
-vless://68d7fc77-5456-483d-963d-338eb18137e3@82.117.84.11:47937?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=aMK3qxqAoFfq0es1hQHp443qyDUkILsFHgsIc-DIwR4&sid=2c9d69aa6c79&spx=/#🇷🇺 Тестирование 1
-vless://41c6f8dd-50de-4c30-96be-44e00fa437ae@77.110.121.202:23164?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=XoIxfrtYaItQL-X_zvZqTcCHBF3_LhIiptW9ph3Rgjs&sid=62&spx=/#🇷🇺 Тестирование 2
-vless://b923639e-724d-4f75-9d8e-ff43c267b35b@46.226.162.205:51177?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=o5VKcEfjPXonAjUJYSk2Rznv0wHjkFEHlVZtcUwVsQE&sid=5ed6&spx=/#🇫🇷 Тестирование 3
-vless://90341ffb-d683-465f-b1df-fb39eebcd414@79.137.198.114:12604?type=tcp&headerType=none&security=reality&fp=chrome&sni=teamdocs.su&pbk=MOvem58Mv6mL3U-Fq9SIEMHJdSth1jtSZUL6_OXd5l8&sid=f5&spx=/#🇳🇱 Тестирование 4
-vless://1d180650-461c-4f93-9cca-270c207b5b4b@212.95.39.25.vhub.pro:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#🇪🇺 Основные сервера ⤵️
+vless://6b0f007a-48b9-4ae1-a7ff-ebe56000b22e@89.124.90.140:443?security=reality&encryption=none&pbk=Uy00KUypOxIe6Q0Ym5t6DuWWuP2lQFvJBVSduaDHDU4&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=f7f3#%F0%9F%87%B3%F0%9F%87%B1%20%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://1ea69ec0-6a08-476f-b119-8266bab40473@185.125.203.33:443?security=reality&encryption=none&pbk=BgDZcLIjx_1FZbLGsaZuu7Pc2dl5OwSd3VErem7ymyA&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=8c71#%F0%9F%87%B3%F0%9F%87%B1%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://e9a4dfd3-5e00-4d6e-8030-9cd8117d4b2a@216.57.108.20:443?security=reality&encryption=none&pbk=udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0&headerType=none&fp=chrome&type=tcp&sni=yahoo.com&sid=95c7#%F0%9F%87%A9%F0%9F%87%AA%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%A9%F0%9F%87%AA%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AB%F0%9F%87%B7%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%B8%F0%9F%87%AA%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AE%F0%9F%87%B9%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AC%F0%9F%87%A7%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%B3%F0%9F%87%B1%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AA%F0%9F%87%B8%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%A8%F0%9F%87%AD%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%B3%F0%9F%87%B4%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%AC%F0%9F%87%B7%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+vless://d61b605c-e186-483e-ae53-7deaf7c56098@vpn-1.usp-vpn.store:443?security=reality&encryption=none&pbk=8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=vpn-1.usp-vpn.store&sid=90cfb50d12729375#%F0%9F%87%A8%F0%9F%87%BF%20%D0%97%D0%B0%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D0%B9%20hwb%20%E2%9A%A1
+
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@94.156.122.179.vhub.pro:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%202
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@64.188.98.68.vhub.pro:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%203
 vless://1d180650-461c-4f93-9cca-270c207b5b4b@216.57.109.212:5555?security=reality&encryption=none&pbk=ab_oLsnNw9-aDCHZ8JrFzC4OKQjM_vcBLcqEoZTjhwU&headerType=none&fp=safari&spx=%2Fwin&type=tcp&sni=download.docker.com&sid=abeb5c9b841a84d2#%F0%9F%87%A9%F0%9F%87%AA%20Обход%20Блокировок%204
