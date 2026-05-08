@@ -1,83 +1,69 @@
-name: Sync 1 Source with Random Flags & Numbering
+name: Anti-Zaglushka Smart Sync 99
 
 on:
   schedule:
-    - cron: "0 * * * *" 
+    - cron: "0 */1 * * *"
   workflow_dispatch:
 
 jobs:
   check-and-sync:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch, Check and Style Keys
+      - name: Fetch and Merge
+        env:
+          TG_TOKEN: ${{ secrets.TG_TOKEN }}
+          TG_CHAT_ID: ${{ secrets.TG_CHAT_ID }}
         run: |
-          # 1. Твой источник
-          SOURCE_URL="https://vpn.tgflovv.ru:8443/free-speed/46c6baae-ed09-4000-bb69-f63f1c100fbf"
+          # 1. Настройки
+          SOURCE="https://raw.githubusercontent.com/igareck/vpn-configs-for-russia/refs/heads/main/BLACK_VLESS_RUS.txt"
+          FLAGS=("🇺🇸" "🇩🇪" "🇫🇮" "🇵🇱" "🇳🇱" "🇬🇧" "🇫🇷" "🇰🇿" "🇹🇷" "🇸🇪" "🇦🇹" "🇨🇿")
+          LIMIT=99
 
-          # Список флагов (🇸🇴 в приоритете)
-          FLAGS=("🇸🇴" "🇸🇴" "🇸🇴" "🇺🇸" "🇩🇪" "🇫🇮" "🇵🇱" "🇳🇱" "🇬🇧" "🇫🇷" "🇰🇿" "🇹🇷" "🇸🇪" "🇦🇹" "🇨🇿")
-
-          # 2. Сохраняем ТОЛЬКО личные ключи
+          # 2. Сохраняем твои текущие сервера (VIP)
           touch README.md
-          grep "://" README.md | grep -v "🔗" | grep -v "Обход Блокировок" > my_own_keys.txt || touch my_own_keys.txt
-          cut -d'#' -f1 my_own_keys.txt > existing_urls.txt
+          grep -E "^(vless|vmess|ss|trojan)://" README.md | grep -v "Антизаглушка" > my_vip.txt || touch my_vip.txt
 
-          # 3. Качаем и декодируем источник
-          curl -L -s "$SOURCE_URL" -o raw_source.txt
-          if ! grep -q "://" raw_source.txt; then
-            base64 -d raw_source.txt > decoded_keys.txt 2>/dev/null || cp raw_source.txt decoded_keys.txt
-          else
-            cp raw_source.txt decoded_keys.txt
-          fi
+          # 3. Скачиваем новые ключи
+          curl -L -s "$SOURCE" -o incoming.txt
+          grep -E "^(vless|vmess|ss|trojan)://" incoming.txt | cut -d'#' -f1 | head -n $LIMIT > source_cleaned.txt
 
-          # 4. Проверка и форматирование названий ключей
-          > alive_keys.txt
-          COUNT=1
-          
+          # 4. Собираем новый README.md с твоими данными
+          echo "#subscription-userinfo: upload=1; download=1; total=1; expire=999999999999999" > README.md
+          echo "#profile-title: 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍" >> README.md
+          echo "#profile-update-interval: 1" >> README.md
+          echo "#subscription-update-interval: 1" >> README.md
+          echo "#announce: Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!" >> README.md
+          echo "#support-url: https://wa.me/79639864491" >> README.md
+          echo "#profile-web-page-url: https://wa.me/79639864491" >> README.md
+          echo "happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN" >> README.md
+          echo "" >> README.md
+
+          # Вставляем твои VIP сервера
+          cat my_vip.txt >> README.md
+
+          # Вставляем 99 новых серверов
+          IDX=1
           while IFS= read -r line; do
-            line=$(echo "$line" | tr -d '\r' | xargs)
-            if [[ $line =~ ^(vless|vmess|trojan|ss):// ]]; then
-              CLEAN_URL=$(echo "$line" | cut -d'#' -f1)
-              HOST=$(echo "$CLEAN_URL" | sed -e 's/.*@//' -e 's/:.*//' -e 's/\/.*//')
-              PORT=$(echo "$CLEAN_URL" | sed -e 's/.*://' -e 's/[?#\/].*//')
-              
-              if [[ "$CLEAN_URL" == vmess://* ]]; then SKIP_PING=true; else SKIP_PING=false; fi
+            RANDOM_FLAG=${FLAGS[$RANDOM % ${#FLAGS[@]}]}
+            echo "${line}#${RANDOM_FLAG} vpn - hwb 🔗 $IDX" >> README.md
+            IDX=$((IDX + 1))
+          done < source_cleaned.txt
 
-              if ! grep -q "$CLEAN_URL" existing_urls.txt; then
-                if [ "$SKIP_PING" = true ] || timeout 1s bash -c "true &>/dev/null > /dev/tcp/$HOST/$PORT" 2>/dev/null; then
-                  RANDOM_FLAG=${FLAGS[$RANDOM % ${#FLAGS[@]}]}
-                  # Название ключей: Обход Блокировок 🔗
-                  echo "${CLEAN_URL}#${RANDOM_FLAG} Обход Блокировок 🔗 $COUNT" >> alive_keys.txt
-                  echo "$CLEAN_URL" >> existing_urls.txt
-                  COUNT=$((COUNT + 1))
-                fi
-              fi
-            fi
-          done < decoded_keys.txt
-
-          # 5. Сборка итогового файла
-          TRAFFIC_LINE=$(grep "#subscription-userinfo" README.md || echo "#subscription-userinfo: upload=0; download=0; total=1125899906842624; expire=3803572800")
-          
-          echo "$TRAFFIC_LINE" > new_readme.md
-          # Твое новое название профиля:
-          echo "#profile-title: 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍" >> new_readme.md
-          echo "#profile-update-interval: 1" >> new_readme.md
-          echo "#announce:Если VPN не работает нажмите 🔄 , после ⏱️ и выберите сервер с наименьшим показателем ms!" >> new_readme.md
-          echo "happ://routing/bypass-lan-and-cn?name=Bypass+LAN+and+CN" >> new_readme.md
-          echo "" >> new_readme.md
-          
-          cat my_own_keys.txt >> new_readme.md
-          cat alive_keys.txt >> new_readme.md
-          
-          mv new_readme.md README.md
+          # 5. Отчет в Telegram
+          if [[ -n "$TG_TOKEN" ]]; then
+            TOTAL=$(grep -c "://" README.md)
+            MSG="⚔️ *АНТИЗАГЛУШКА ОБНОВЛЕНА*%0A%0A📊 Всего серверов: *$TOTAL*%0A🕒 Время: $(date +'%H:%M')"
+            curl -s -X POST "https://api.telegram.org/bot$TG_TOKEN/sendMessage" -d "chat_id=$TG_CHAT_ID" -d "parse_mode=Markdown" -d "text=$MSG"
+          fi
 
       - name: Commit and Push
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Github Action"
           git add README.md
-          git commit -m "Update: Profile title 🇫🇷 𝐓𝐢𝐤 𝐓𝐨𝐤 𝐕𝐏𝐍 and hourly sync" || exit 0
-          git push origin main --force
-          
+          git commit -m "Updated with support links and 99 keys ⚔️" || exit 0
+          git push origin main
